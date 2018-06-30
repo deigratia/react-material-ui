@@ -1,0 +1,94 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  background-image: url('./images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.textlogin{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+display: flex;
+justify-content: center;
+}
+
+Button{
+  width: 200px;
+  background-color: white;
+}
+
+p{
+  color: white;
+}
+
+footer{
+ clear: both;
+ margin: 1em 1em 1em 1em;
+ padding: 0.75em 0.75em;
+ position: relative;
+ top: 160px;
+ border-top: 1px solid;
+ border-color: white;
+
+}
+
+.table{
+  padding: 50px;
+  margin: 0px;
+
+}
+
+.logo1{
+  margin: 0.15em 0.15em 0.15em 0.15em;
+  padding: 0.75em 0.75em;
+  position: relative;
+  border-bottom: 1px solid;
+  border-color: white;
+}
+
+.button{
+  display: flex;
+  justify-content:center;
+}
+
+.buttonregis{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputregis{
+  border: 1px solid;
+}
+
+.formregis{
+  border: 1px solid;
+  background-color: white;
+  height: 500px;
+  width: 1100px;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
